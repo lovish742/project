@@ -8,10 +8,15 @@ import java.util.Objects;
 public class StudentService {
 
     private final StudentDAO studentDAO;
-    private final EmailService emailService = new EmailService();
+    private final EmailService emailService;
 
     public StudentService(StudentDAO studentDAO) {
+        this(studentDAO, new EmailService());
+    }
+
+    public StudentService(StudentDAO studentDAO, EmailService emailService) {
         this.studentDAO = studentDAO;
+        this.emailService = emailService;
     }
 
     // Use case: Register

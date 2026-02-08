@@ -1,0 +1,4 @@
+Use Case Diagram instructions:
+Actors: Visitor, Student
+Use cases: Register, Login, ViewProfile, BrowseCourses, RegisterCourse, ReceiveEmail
+Arrange actors on left/right and use-case ovals in center.

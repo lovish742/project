@@ -1,0 +1,2 @@
+Class Diagram instructions:
+Include Student, Course, StudentDAO (interface), implementations, DAOFactory, StudentService, EmailService. Show relationships and multiplicities.

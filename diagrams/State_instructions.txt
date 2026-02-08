@@ -1,0 +1,2 @@
+State Diagram for Registration entity:
+States: Created -> Validating -> Registered -> EmailSent -> Completed

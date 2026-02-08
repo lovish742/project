@@ -1,0 +1,14 @@
+Demo video script (1-2 minutes)
+
+1. Start the application (show main window).
+2. Click "Register" and fill: Mission Call, First Name, Last Name, Email, Password, Birth Date.
+3. Upload motivation letter and accept policy checkbox.
+4. Submit — show registration success.
+5. Login with the registered email and PIN/password.
+6. Dashboard: point to left side (student info) and right side (available courses).
+7. Click "Register" on a course.
+8. Show console output where the mock email is printed (this proves email logic).
+9. Explain: Persistence mode used (Memory / Binary File / MySQL).
+10. If using Binary mode, show students.bin file contents briefly (or show the course listed in UI).
+
+Note: keep it short and speak clearly. Mention that email is simulated for the exam submission and show the SQL script included for MySQL setup.
